@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359285053547",
+    "project_id": "object-detection-6c298",
+    "storage_bucket": "object-detection-6c298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359285053547:android:273f5a4450f271e5d5f92e",
+        "android_client_info": {
+          "package_name": "com.teyouale.objectdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359285053547-nbf2biq5qsubfv4varqd07tutnges2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFdP-3p3DQ8OvPHnqww9REUkTOGf2HhpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359285053547-nbf2biq5qsubfv4varqd07tutnges2g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

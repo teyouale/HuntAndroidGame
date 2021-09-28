@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="100"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".Question">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Question"
+        android:textColor="@color/black"
+        android:textSize="52sp" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/previewView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/previewView"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bcapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Picture" />
+
+        <Button
+            android:id="@+id/brecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@id/bcapture"
+            android:text="Start Recording" />
+    </RelativeLayout>
+
+
+</LinearLayout>

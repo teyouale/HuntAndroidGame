@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="100dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_120" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:includeFontPadding="false"
+            android:paddingTop="20sp"
+            android:shadowColor="#0E0E0E"
+            android:text="HUNT"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:shadowColor="#0E0E0E"
+            android:text="You Will Never Walk Alone"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+
+        <Button
+            android:id="@+id/google_signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="8dp"
+            android:text="Sign In with Google"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

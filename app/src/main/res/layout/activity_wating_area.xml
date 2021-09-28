@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WatingArea">
+
+    <TextView
+        android:id="@+id/groupname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Welcome To "
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/createdby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupname1"
+        android:layout_marginTop="16dp"
+        android:text="Created By"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupname1"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Status"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/totalcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupname1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="Total Active User"
+        android:textSize="16sp" />
+
+
+        <ListView
+            android:id="@+id/listmembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/createdby"/>
+</RelativeLayout>

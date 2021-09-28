@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loggedIn">
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cornerRadius="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="logout" />
+    <ImageView
+        android:id="@+id/pp"
+        android:layout_below="@+id/logoutbtn"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/user"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/name"
+        android:layout_below="@+id/pp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Welcome!"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo"
+        android:layout_margin="16dp"
+        android:textSize="28sp"
+        android:textColor="#697171"
+         />
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:text="Please Select You "
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/creategroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Create Group"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/joingroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Join Group" />
+
+    </LinearLayout>
+
+</RelativeLayout>
